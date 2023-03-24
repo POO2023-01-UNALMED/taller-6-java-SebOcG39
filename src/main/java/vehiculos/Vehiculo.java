@@ -96,4 +96,14 @@ public class Vehiculo {
     public void setCantidadVehiculos(int CantidadVehiculos) {
         Vehiculo.CantidadVehiculos = CantidadVehiculos;
     }
+
+    public int getVelocidadMaxima() {
+        return velocidadMaxima;
+    }
+
+    public void setVelocidadMaxima(int velocidadMaxima) {
+        this.velocidadMaxima = velocidadMaxima;
+    }
+    
+    
 }
